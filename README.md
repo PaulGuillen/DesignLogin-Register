@@ -43,7 +43,7 @@ _En este paso procederé a mostrar las vistas de los diseños._
  
 </p>
 
-## Autores ✒️
+## Autor ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
