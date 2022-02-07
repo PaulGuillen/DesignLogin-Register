@@ -27,6 +27,9 @@
         android:layout_alignParentBottom="true">
 
         <LinearLayout
+
+            android:gravity="center"
+            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -35,6 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
+                android:layout_gravity="center"
                 android:background="@color/white"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="20dp">
@@ -203,7 +207,7 @@
                         android:padding="15dp"
                         android:textSize="20sp"
                         android:textStyle="bold"
-                        tools:ignore="Autofill" />
+                        tools:ignore="Autofill,TextContrastCheck" />
 
                     <View
                         android:layout_width="match_parent"
@@ -241,7 +245,7 @@
                             android:layout_height="50dp"
                             android:layout_marginTop="15dp"
                             android:src="@drawable/ic_arrow_left"
-                            tools:ignore="ContentDescription" />
+                            tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
 
                         <TextView
                             android:layout_width="wrap_content"
