@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/btn_facebook.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/btn_google.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/btn_loginhome.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/btn_logout.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/btn_toolbar.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/btn_twitter.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/btnredondo.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/button_with_hover.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/custom_editext_rounded.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/edittext_border.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/ic_baseline_error_outline_24.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/ic_black_eye.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/ic_blackperson.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/ic_contact_phone.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/ic_email.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/ic_gray_email.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/ic_person_outline.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/round_button.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/rounded_button.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/drawable/tx_cardview.xml" value="0.33489583333333334" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/font/aclonica.xml" value="0.2" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_main.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_main2.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_main3.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_main4.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_main5.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_register2.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_register3.xml" value="0.29739583333333336" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_register4.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/activity_register5.xml" value="0.3145833333333333" />
+        <entry key="..\:/Proyectos/ProyectosAndroidStudio/LoginsandRegisterDesignXML/app/src/main/res/layout/custom_register3.xml" value="0.3145833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

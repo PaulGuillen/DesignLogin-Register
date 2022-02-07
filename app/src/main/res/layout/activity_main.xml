@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ActionBarStyle">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar_main"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img_principal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/principal"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:id="@+id/text_titulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_toEndOf="@id/img_principal"
+                        android:text="@string/brot_s"
+                        android:textAppearance="@style/TitulosActionBar" />
+
+                    <Button
+                        android:background="@drawable/btnredondo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:backgroundTint="@color/blue_from_inicio"
+                        android:fontFamily="@font/muli"
+                        android:gravity="center"
+                        android:layout_marginEnd="20dp"
+                        android:layout_gravity="end"
+                        android:text="@string/llamanos"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        tools:ignore="RelativeOverlap" />
+
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/inicio">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/bienvenido"
+                    android:textAppearance="@style/Sub_Titulos">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_texto_bienvenida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="false"
+                    android:layout_below="@id/txt_titulo"
+                    android:gravity="center"
+                    android:paddingBottom="7dp"
+                    android:text="@string/texto_arriba"
+                    android:textAppearance="@style/Sub_Sub_Titulos" />
+
+                <View
+                    android:id="@+id/view_cero"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_below="@id/txt_texto_bienvenida"
+                    android:layout_marginTop="10dp"
+                    android:background="#66000000"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                <EditText
+                    android:id="@+id/TextCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view_cero"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/edt_login"
+                    android:hint="@string/correo"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:padding="20dp"
+                    android:textAppearance="@style/EditTextyTextViews"
+                    tools:ignore="TextContrastCheck" />
+
+                <View
+                    android:id="@+id/view_uno"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_below="@id/TextCorreo"
+                    android:background="#66000000"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/TextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view_uno"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/edt_login"
+                    android:fontFamily="@font/muli"
+                    android:hint="@string/contrasena"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword"
+                    android:padding="20dp"
+                    android:textSize="18sp" />
+
+                <View
+                    android:id="@+id/view_dos"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/TextPassword"
+                    android:background="#66000000"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+                <LinearLayout
+                    android:layout_below="@id/view_dos"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+                    <ImageView
+                        android:id="@+id/img_advertencia"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/advertencia"
+                        android:contentDescription="@string/todo" />
+
+                    <TextView
+                        android:id="@+id/mensaje_credenciales"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:layout_gravity="center"
+                        android:text="@string/texto_largo"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/Sub_Sub_Titulos"
+                        tools:ignore="RtlSymmetry" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:text="@string/cancelar"
+                android:textAppearance="@style/BotonesTexto"
+                android:textColor="@color/black"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_recuperar_password"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:background="@color/orange_primary_dark"
+                android:text="@string/iniciar_sesion"
+                android:textAppearance="@style/BotonesTexto"
+                android:textColor="@color/white"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:gravity="bottom"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_tienes_cuenta"
+                    android:textAppearance="@style/TextoOlvidasteyRegistro" />
+
+                <TextView
+                    android:onClick="ViewRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/registrate_ahora"
+                    android:textAppearance="@style/Sub_Sub_Titulos"
+                    android:textColor="@color/blue_primary_dark">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/olvidaste_contrasena"
+                    android:textAppearance="@style/TextoOlvidasteyRegistro"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/presiona_aqui"
+                    android:textAppearance="@style/Sub_Sub_Titulos"
+                    android:textColor="@color/blue_primary_dark">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
