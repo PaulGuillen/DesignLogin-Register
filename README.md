@@ -35,11 +35,11 @@ _En este paso procederé a mostrar las vistas de los diseños._
   <img src="https://i.postimg.cc/x1c8TG9c/Main3.png"/>
   <img src="https://i.postimg.cc/02rPp8F4/Register3.png"/>
 
-  <img src="https://i.postimg.cc/MG0SWXfn/Main4.png"/>
-  <img src="https://i.postimg.cc/YSzJ5VTg/Register4.png"/>
- 
-  <img src="https://i.postimg.cc/NjhS5Bcm/Main5.png"/>
-  <img src="https://i.postimg.cc/Z5rgN2bg/Register5.png"/>
+  <img src="https://i.postimg.cc/NF1kKqYf/Register4.png"/>
+   <img src="https://i.postimg.cc/ZKtf4jZ5/Main4.png"/>
+
+  <img src="https://i.postimg.cc/NfcxWM7y/Main5.png"/>
+  <img src="https://i.postimg.cc/brjQcCbX/Register5.png"/>
  
 </p>
 
