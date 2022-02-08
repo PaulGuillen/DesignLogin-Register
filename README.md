@@ -45,8 +45,6 @@ _En este paso procederé a mostrar las vistas de los diseños._
 
 ## Autor ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 * **Paul Guillen Acuña** - *Mi Repositorio* - [PaulGuillen](https://github.com/PaulGuillen?tab=repositories)
 
 ## Licencia 📄
