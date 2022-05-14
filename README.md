@@ -12,7 +12,7 @@ _Estas observaciones te permitirán tener en cuenta el diseño de estas vistas._
 
 ### Pre-requisitos 📋
 
-_Que necesitas saber si tienes algun fallo de ejecuión de este proyecto_
+_Que necesitas saber si tienes algún fallo de ejecuión de este proyecto_
 
 ```
 . MinSdk =  27
