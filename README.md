@@ -1,6 +1,6 @@
 ### Diseños de Login en XML
 
-_En esta ocasión vengo a presentar diseños de inicio de sesión y registro en android studio con sus respectivas personalizaciones._
+_En esta ocasión vengo a presentar diseños de inicio de sesión y registro en android studio con sus respectivas personalizaciones y carácteristicas propias._
 
 ## Comenzando 🚀
 
