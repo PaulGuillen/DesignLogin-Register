@@ -5,6 +5,7 @@ _En esta ocasión vengo a presentar diseños de inicio de sesión y registro en 
 ## Comenzando 🚀
 
 _Estas observaciones te permitirán tener en cuenta el diseño de estas vistas._
+
  * Funciona horizontalmente
  * Es desplazable (arriba hacia abajo y visceversa)
  * Tamaño del Dispositivo(AVD) = 1440 * 3040: 560dpi
